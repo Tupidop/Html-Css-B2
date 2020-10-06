@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Spectral', serif;
+}
+
+.header {
+    display: flex;
+}
+
+.background-image {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(to bottom left, rgba(168, 168, 168, 0.52), rgba(0, 0, 0, 1)), url(https://www.nba.com/images/cms/2020-09/2020_Playoffs_T1_Mobile.jpg?w=1920&h=1080);
+}
+
+.text {
+    margin: 35px 0 0 35px;
+    position: relative;
+    color: white;
+    h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 20px;
+        line-height: 50px;
+    }
+
+    p {
+        font-weight: lighter;
+    }
+    button {
+        color: white;
+        background-color: red;
+        box-shadow: none;
+    }
+}
+
+svg {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    color: purple;
+    left: 45%;
+    top: 75%;
+    animation: bounce ease-in-out 1.4s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+    svg {
+        height: 70px;
+        width: 70px;
+        color: royalblue;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    svg{
+        height: 50px;
+        width: 50px;
+        color: saddlebrown;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+    svg{
+        height: 40px;
+        width: 40px;
+        color: yellow;
+    }
+ }
+@media all and (max-width: 480px) {
+    svg{
+        height: 30px;
+        width: 30px;
+        color: green;
+    }
+ }

@@ -1,0 +1,712 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Spectral:wght@300;400;700&display=swap");
+.size-1, button {
+  font-size: 16px;
+}
+
+.size-2 {
+  font-size: 20px;
+}
+
+.size-3 {
+  font-size: 24px;
+}
+
+.size-4 {
+  font-size: 28px;
+}
+
+.size-5 {
+  font-size: 32px;
+}
+
+.primary-1, .card-button {
+  background-color: #7f3d9b;
+  color: white;
+}
+
+.primary-1:hover, .card-button:hover {
+  background-color: #8b43a9;
+}
+
+.alert-1 {
+  background-color: #d67118;
+  color: white;
+}
+
+.alert-1:hover {
+  background-color: #e57b1d;
+}
+
+.success-1 {
+  background-color: #29b765;
+  color: white;
+}
+
+.success-1:hover {
+  background-color: #2dc86f;
+}
+
+.danger-1 {
+  background-color: #e43725;
+  color: white;
+}
+
+.danger-1:hover {
+  background-color: #e64837;
+}
+
+.primary-2 {
+  background-color: #703688;
+  color: white;
+}
+
+.primary-2:hover {
+  background-color: #8841a6;
+}
+
+.alert-2 {
+  background-color: #bf6516;
+  color: white;
+}
+
+.alert-2:hover {
+  background-color: #e4791a;
+}
+
+.success-2 {
+  background-color: #25a25a;
+  color: white;
+}
+
+.success-2:hover {
+  background-color: #2cc46c;
+}
+
+.danger-2 {
+  background-color: #d62c1a;
+  color: white;
+}
+
+.danger-2:hover {
+  background-color: #e64433;
+}
+
+.primary-3 {
+  background-color: #612e76;
+  color: white;
+}
+
+.primary-3:hover {
+  background-color: #8540a2;
+}
+
+.alert-3 {
+  background-color: #a85913;
+  color: white;
+}
+
+.alert-3:hover {
+  background-color: #df7619;
+}
+
+.success-3 {
+  background-color: #208e4e;
+  color: white;
+}
+
+.success-3:hover {
+  background-color: #2bc06a;
+}
+
+.danger-3 {
+  background-color: #bf2718;
+  color: white;
+}
+
+.danger-3:hover {
+  background-color: #e53f2e;
+}
+
+.primary-4 {
+  background-color: #522764;
+  color: white;
+}
+
+.primary-4:hover {
+  background-color: #823e9e;
+}
+
+.alert-4 {
+  background-color: #924d10;
+  color: white;
+}
+
+.alert-4:hover {
+  background-color: #db7419;
+}
+
+.success-4 {
+  background-color: #1b7943;
+  color: white;
+}
+
+.success-4:hover {
+  background-color: #2abb68;
+}
+
+.danger-4 {
+  background-color: #a82315;
+  color: white;
+}
+
+.danger-4:hover {
+  background-color: #e53b2a;
+}
+
+.primary-5 {
+  background-color: #432051;
+  color: white;
+}
+
+.primary-5:hover {
+  background-color: #7f3d9b;
+}
+
+.alert-5 {
+  background-color: #7b410e;
+  color: white;
+}
+
+.alert-5:hover {
+  background-color: #d67118;
+}
+
+.success-5 {
+  background-color: #176437;
+  color: white;
+}
+
+.success-5:hover {
+  background-color: #29b765;
+}
+
+.danger-5 {
+  background-color: #921e12;
+  color: white;
+}
+
+.danger-5:hover {
+  background-color: #e43725;
+}
+
+button {
+  padding: 0.125em 0.75em;
+  border: none;
+  border-radius: 5px;
+  background-color: inherit;
+  -webkit-transition: background-color ease-in-out 0.4s;
+  transition: background-color ease-in-out 0.4s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.primary {
+  background-color: #8e44ad;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #a15bbf;
+}
+
+button.success {
+  background-color: #2ecc71;
+  color: white;
+}
+
+button.success:hover {
+  background-color: #4cd787;
+}
+
+button.alert {
+  background-color: #e67e22;
+  color: white;
+}
+
+button.alert:hover {
+  background-color: #ea9347;
+}
+
+button.danger {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button.danger:hover {
+  background-color: #eb6d60;
+}
+
+button.secondary {
+  color: #8e44ad;
+  border: solid 1px #8e44ad;
+}
+
+button.secondary:hover {
+  background-color: #8e44ad;
+  color: white;
+}
+
+.shadow-1, button {
+  -webkit-box-shadow: 2px 4px 4px #cccccc;
+          box-shadow: 2px 4px 4px #cccccc;
+}
+
+.shadow-2 {
+  -webkit-box-shadow: 4px 8px 8px #cccccc;
+          box-shadow: 4px 8px 8px #cccccc;
+}
+
+.shadow-3 {
+  -webkit-box-shadow: 6px 12px 12px #cccccc;
+          box-shadow: 6px 12px 12px #cccccc;
+}
+
+.shadow-4 {
+  -webkit-box-shadow: 8px 16px 16px #cccccc;
+          box-shadow: 8px 16px 16px #cccccc;
+}
+
+.shadow-5, .card, .social {
+  -webkit-box-shadow: 10px 20px 20px #cccccc;
+          box-shadow: 10px 20px 20px #cccccc;
+}
+
+.card {
+  width: 150px;
+  max-height: calc($phi*150px);
+  background-color: white;
+  background-image: url(/boilerplate/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+  padding: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: background-image 2s;
+  transition: background-image 2s;
+  border: solid 2px #8e44ad;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.card-date {
+  font-size: 12px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.card:hover {
+  color: black;
+  background-image: none;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.card-button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.social {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.social:hover .slider {
+  left: 0;
+  top: 0;
+}
+
+.social svg {
+  height: 60px;
+  width: 60px;
+  color: blue;
+}
+
+.social .slider {
+  width: 100%;
+  position: absolute;
+  background-color: blue;
+  height: 100%;
+  left: 100%;
+  top: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.social .slider a {
+  color: white;
+  text-decoration: none;
+}
+
+.social .slider svg {
+  color: white;
+}
+
+.trade {
+  margin-top: 50px;
+  width: 200px;
+  height: 300px;
+  max-width: 200px;
+  max-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.trade .bg {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 250px;
+  background-image: url("https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.trade .bg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.trade-footer {
+  z-index: 2;
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  height: 50px;
+}
+
+.trade-footer .action {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.trade-footer .action:hover .trade-slider {
+  top: 0;
+}
+
+.trade-footer .action svg {
+  height: 20px;
+  width: 20px;
+}
+
+.trade-footer .action .trade-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: top 0.3s ease-in-out;
+  transition: top 0.3s ease-in-out;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.trade .add {
+  background-color: green;
+}
+
+.trade .remove {
+  background-color: red;
+}
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Spectral', serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.background-image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(168, 168, 168, 0.52)), to(black)), url(https://www.nba.com/images/cms/2020-09/2020_Playoffs_T1_Mobile.jpg?w=1920&h=1080);
+  background-image: linear-gradient(to bottom left, rgba(168, 168, 168, 0.52), black), url(https://www.nba.com/images/cms/2020-09/2020_Playoffs_T1_Mobile.jpg?w=1920&h=1080);
+}
+
+.text {
+  margin: 35px 0 0 35px;
+  position: relative;
+  color: white;
+}
+
+.text h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  line-height: 50px;
+}
+
+.text p {
+  font-weight: lighter;
+}
+
+.text button {
+  color: white;
+  background-color: red;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+svg {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  color: purple;
+  left: 45%;
+  top: 75%;
+  -webkit-animation: bounce ease-in-out 1.4s infinite;
+          animation: bounce ease-in-out 1.4s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  svg {
+    height: 70px;
+    width: 70px;
+    color: royalblue;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  svg {
+    height: 50px;
+    width: 50px;
+    color: saddlebrown;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  svg {
+    height: 40px;
+    width: 40px;
+    color: yellow;
+  }
+}
+
+@media all and (max-width: 480px) {
+  svg {
+    height: 30px;
+    width: 30px;
+    color: green;
+  }
+}
+
+.signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .signup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .signup .signup-img {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .signup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .signup .signup-img {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+.signup-img {
+  width: 50vw;
+  height: auto;
+}
+
+.signup-form {
+  width: 100vw;
+  height: auto;
+  background-color: grey;
+}
+
+.form {
+  width: 50vw;
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+}
+
+.newsletter {
+  width: 100%;
+  height: 200px;
+  background-color: goldenrod;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.newsletter#news {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+h3, h1, p {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

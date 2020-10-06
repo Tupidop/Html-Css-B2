@@ -1,0 +1,17 @@
+@import "./global/colors";
+@import "./components/button";
+@import "./global/shadow";
+@import "./components/card";
+@import "./components/header";
+@import "./components/signup";
+@import "./components/newsletter";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Spectral:wght@300;400;700&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+h3, h1, p {
+    margin: 0;
+}
